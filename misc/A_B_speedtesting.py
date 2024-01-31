@@ -7,16 +7,12 @@ import random
 #you should probably ignore small differences in speed found by this test, but large differences can be super informative. 
 
 
-oneval = 10
-twoval = 10
 
 
 def function_A(val1, val2):
-    return (val1 * 10) + oneval
-
+    return int(str(val1) + str(val2))
 def function_B(val1, val2):
-    return (val1 * 10) + twoval
-
+    return (val1 * 10) + val2
 
 
 
